@@ -1,6 +1,6 @@
 var fs = require("fs");                 //accessing/requiring the file system       
 
-fs.mkdirSync("nishant");                   //creating the folder --> demo
+fs.mkdirSync("nishant");                   //creating the folder --> nishant
 fs.writeFileSync("nishant/hello.txt","Hello from demo",(err) => {           //creating the file --> hello
     if(err){
         console.log(err);
